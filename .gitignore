@@ -1,0 +1,14 @@
+# Java后端
+grad_ai_community/target/
+grad_ai_community/.idea/
+grad_ai_community/src/main/resources/application-local.yml
+grad_ai_community/*.iml
+
+# Vue前端
+v/node_modules/
+v/dist/
+v/.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db

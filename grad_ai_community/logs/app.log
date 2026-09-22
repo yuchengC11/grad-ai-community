@@ -1,0 +1,1586 @@
+2026-08-22 13:32:09.476 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2026-08-22 13:32:09.481 [main] INFO  c.g.g.GradAiCommunityApplication - Starting GradAiCommunityApplication using Java 1.8.0_202 on DESKTOP-BSHJF2M with PID 17520 (D:\software\springBoot\grad_ai_community\target\classes started by Legion in D:\software\springBoot\grad_ai_community)
+2026-08-22 13:32:09.482 [main] INFO  c.g.g.GradAiCommunityApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-22 13:32:10.214 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-08-22 13:32:10.215 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-08-22 13:32:10.256 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+2026-08-22 13:32:10.998 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2026-08-22 13:32:10.999 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.14] using APR version [1.7.6].
+2026-08-22 13:32:10.999 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2026-08-22 13:32:10.999 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2026-08-22 13:32:11.003 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.5.5 27 Jan 2026]
+2026-08-22 13:32:11.012 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-08-22 13:32:11.013 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-22 13:32:11.013 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2026-08-22 13:32:11.232 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-08-22 13:32:11.232 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1704 ms
+2026-08-22 13:32:14.413 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-08-22 13:32:14.512 [main] INFO  c.g.g.config.WebConfig - 上传文件映射物理路径：D:\software\springBoot\grad_ai_community\.\uploads
+2026-08-22 13:32:15.010 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-08-22 13:32:15.035 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2026-08-22 13:32:15.048 [main] INFO  c.g.g.GradAiCommunityApplication - Started GradAiCommunityApplication in 6.003 seconds (JVM running for 7.42)
+2026-08-22 13:32:15.051 [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-08-22 13:32:15.182 [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-08-22 13:32:16.655 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:32:21.659 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:32:26.665 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:32:31.675 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:32:36.682 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:32:41.693 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:32:46.700 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:32:51.705 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:32:53.401 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-22 13:32:53.401 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-22 13:32:53.402 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-08-22 13:32:53.579 [http-nio-8081-exec-2] DEBUG c.g.g.m.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,nickname,avatar,school,major,interest_tag,create_time,update_time FROM sys_user WHERE (username = ?)
+2026-08-22 13:32:53.599 [http-nio-8081-exec-2] DEBUG c.g.g.m.SysUserMapper.selectList - ==> Parameters: t123456(String)
+2026-08-22 13:32:53.626 [http-nio-8081-exec-2] DEBUG c.g.g.m.SysUserMapper.selectList - <==      Total: 1
+2026-08-22 13:32:56.711 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:33:01.728 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:33:06.738 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:33:11.755 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:33:16.758 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:33:21.769 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:33:26.784 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:33:31.800 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:33:36.808 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:33:41.820 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:33:46.830 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:33:51.845 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:33:56.854 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:34:01.859 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:34:06.875 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:34:11.886 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:34:16.898 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:34:21.910 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:34:26.926 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:34:31.941 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:34:36.949 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:34:41.955 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:34:46.957 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:34:51.964 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:34:56.975 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:35:00.018 [scheduling-1] INFO  c.g.g.service.impl.LikeSyncTask - 【定时任务】暂无需要同步的点赞数据
+2026-08-22 13:35:01.981 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:35:06.997 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:35:12.004 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:35:17.012 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:35:22.023 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:35:27.033 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:35:32.040 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:35:37.043 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:35:42.059 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:35:47.066 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:35:52.068 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:35:57.074 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:36:02.083 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:36:07.098 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:36:12.102 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:36:17.112 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:36:22.125 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:36:27.132 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:36:32.142 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:36:37.159 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:36:42.164 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:36:47.179 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:36:52.187 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:36:57.202 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:36:58.705 [http-nio-8081-exec-5] DEBUG c.g.g.m.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,nickname,avatar,school,major,interest_tag,create_time,update_time FROM sys_user WHERE (username = ?)
+2026-08-22 13:36:58.705 [http-nio-8081-exec-5] DEBUG c.g.g.m.SysUserMapper.selectList - ==> Parameters: t123456(String)
+2026-08-22 13:36:58.706 [http-nio-8081-exec-5] DEBUG c.g.g.m.SysUserMapper.selectList - <==      Total: 1
+2026-08-22 13:37:02.221 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:37:07.238 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:37:08.131 [http-nio-8081-exec-6] ERROR c.g.g.common.GlobalExceptionHandler - 系统异常
+org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.graduate.graidaicommunity.common.Result<?> com.graduate.graidaicommunity.controller.UserController.register(com.graduate.graidaicommunity.vo.RegisterDTO)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:163)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2026-08-22 13:37:10.108 [http-nio-8081-exec-7] ERROR c.g.g.common.GlobalExceptionHandler - 系统异常
+org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.graduate.graidaicommunity.common.Result<?> com.graduate.graidaicommunity.controller.UserController.register(com.graduate.graidaicommunity.vo.RegisterDTO)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:163)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2026-08-22 13:37:12.246 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:37:17.259 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:37:22.261 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:37:27.275 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:37:32.286 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:37:37.289 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:37:42.308 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:37:47.323 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:37:52.339 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:37:57.349 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:38:02.362 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:38:07.378 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:38:12.389 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:38:17.405 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:38:22.417 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:38:27.434 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:38:32.448 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:38:37.452 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:38:42.463 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:38:47.471 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:38:52.473 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:38:57.481 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:39:02.485 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:39:07.488 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:39:12.491 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:39:17.505 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:39:22.517 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:39:27.520 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:39:32.531 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:39:37.536 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:39:42.553 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:39:47.565 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:39:52.580 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:39:57.590 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:40:00.007 [scheduling-1] INFO  c.g.g.service.impl.LikeSyncTask - 【定时任务】暂无需要同步的点赞数据
+2026-08-22 13:40:02.599 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:40:07.608 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:40:12.611 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:40:17.628 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:40:22.642 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:40:27.659 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:40:32.673 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:40:37.676 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:40:42.693 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:40:47.706 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:40:48.102 [http-nio-8081-exec-10] ERROR c.g.g.common.GlobalExceptionHandler - 系统异常
+org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 4, column: 2]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:391)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:343)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:185)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:160)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 4, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:659)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:2096)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1746)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextFieldName(UTF8StreamJsonParser.java:1075)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:399)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3682)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:380)
+	... 51 common frames omitted
+2026-08-22 13:40:52.722 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:40:54.640 [http-nio-8081-exec-1] DEBUG c.g.g.m.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,nickname,avatar,school,major,interest_tag,create_time,update_time FROM sys_user WHERE (username = ?)
+2026-08-22 13:40:54.640 [http-nio-8081-exec-1] DEBUG c.g.g.m.SysUserMapper.selectList - ==> Parameters: w123456(String)
+2026-08-22 13:40:54.642 [http-nio-8081-exec-1] DEBUG c.g.g.m.SysUserMapper.selectList - <==      Total: 1
+2026-08-22 13:40:57.726 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:41:02.741 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:41:07.750 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:41:12.768 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:41:17.779 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:41:22.782 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:41:27.787 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:41:32.800 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:41:37.812 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:41:42.816 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:41:47.820 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:41:52.786 [http-nio-8081-exec-2] DEBUG c.g.g.m.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,nickname,avatar,school,major,interest_tag,create_time,update_time FROM sys_user WHERE (username = ?)
+2026-08-22 13:41:52.786 [http-nio-8081-exec-2] DEBUG c.g.g.m.SysUserMapper.selectList - ==> Parameters: w1234567(String)
+2026-08-22 13:41:52.787 [http-nio-8081-exec-2] DEBUG c.g.g.m.SysUserMapper.selectList - <==      Total: 0
+2026-08-22 13:41:52.826 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:41:52.851 [http-nio-8081-exec-2] DEBUG c.g.g.mapper.SysUserMapper.insert - ==>  Preparing: INSERT INTO sys_user ( username, password, interest_tag ) VALUES ( ?, ?, ? )
+2026-08-22 13:41:52.851 [http-nio-8081-exec-2] DEBUG c.g.g.mapper.SysUserMapper.insert - ==> Parameters: w1234567(String), $2a$10$ZnZhJLu.btCXNwGV7F2UcuQ7FqezmJnvtl5hm6P.3IK51ulGZcWhC(String), 1(Integer)
+2026-08-22 13:41:52.918 [http-nio-8081-exec-2] ERROR c.g.g.common.GlobalExceptionHandler - 系统异常
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'nickname' doesn't have a default value
+### The error may exist in com/graduate/graidaicommunity/mapper/SysUserMapper.java (best guess)
+### The error may involve com.graduate.graidaicommunity.mapper.SysUserMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO sys_user  ( username, password,     interest_tag )  VALUES  ( ?, ?,     ? )
+### Cause: java.sql.SQLException: Field 'nickname' doesn't have a default value
+; Field 'nickname' doesn't have a default value; nested exception is java.sql.SQLException: Field 'nickname' doesn't have a default value
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:251)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy82.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:59)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy89.insert(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.IService.save(IService.java:63)
+	at com.graduate.graidaicommunity.service.impl.UserServiceImpl.register(UserServiceImpl.java:42)
+	at com.graduate.graidaicommunity.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$af3a907d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at com.graduate.graidaicommunity.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$58786407.register(<generated>)
+	at com.graduate.graidaicommunity.controller.UserController.register(UserController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLException: Field 'nickname' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy148.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:64)
+	at com.sun.proxy.$Proxy147.update(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Invocation.proceed(Invocation.java:49)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:106)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy146.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 65 common frames omitted
+2026-08-22 13:41:57.841 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:42:02.852 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:42:07.857 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:42:12.868 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:42:17.880 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:42:22.885 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:42:27.898 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:42:32.914 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:42:37.929 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:42:42.944 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:42:47.960 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:42:52.967 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:42:57.979 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:43:01.925 [http-nio-8081-exec-5] DEBUG c.g.g.m.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,nickname,avatar,school,major,interest_tag,create_time,update_time FROM sys_user WHERE (username = ?)
+2026-08-22 13:43:01.925 [http-nio-8081-exec-5] DEBUG c.g.g.m.SysUserMapper.selectList - ==> Parameters: w1237(String)
+2026-08-22 13:43:01.926 [http-nio-8081-exec-5] DEBUG c.g.g.m.SysUserMapper.selectList - <==      Total: 0
+2026-08-22 13:43:01.987 [http-nio-8081-exec-5] DEBUG c.g.g.mapper.SysUserMapper.insert - ==>  Preparing: INSERT INTO sys_user ( username, password, interest_tag ) VALUES ( ?, ?, ? )
+2026-08-22 13:43:01.987 [http-nio-8081-exec-5] DEBUG c.g.g.mapper.SysUserMapper.insert - ==> Parameters: w1237(String), $2a$10$6c5BYMD8bNWbSAuI.DjSGOWujFYjV6HEzUj/SrkU2VQDPIPt2Agi.(String), 1(Integer)
+2026-08-22 13:43:01.990 [http-nio-8081-exec-5] ERROR c.g.g.common.GlobalExceptionHandler - 系统异常
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'nickname' doesn't have a default value
+### The error may exist in com/graduate/graidaicommunity/mapper/SysUserMapper.java (best guess)
+### The error may involve com.graduate.graidaicommunity.mapper.SysUserMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO sys_user  ( username, password,     interest_tag )  VALUES  ( ?, ?,     ? )
+### Cause: java.sql.SQLException: Field 'nickname' doesn't have a default value
+; Field 'nickname' doesn't have a default value; nested exception is java.sql.SQLException: Field 'nickname' doesn't have a default value
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:251)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy82.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:59)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy89.insert(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.IService.save(IService.java:63)
+	at com.graduate.graidaicommunity.service.impl.UserServiceImpl.register(UserServiceImpl.java:42)
+	at com.graduate.graidaicommunity.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$af3a907d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at com.graduate.graidaicommunity.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$58786407.register(<generated>)
+	at com.graduate.graidaicommunity.controller.UserController.register(UserController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLException: Field 'nickname' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy148.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:64)
+	at com.sun.proxy.$Proxy147.update(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Invocation.proceed(Invocation.java:49)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:106)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy146.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 65 common frames omitted
+2026-08-22 13:43:02.987 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:43:07.990 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:43:13.000 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:43:18.006 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:43:23.020 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:43:28.036 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:43:33.045 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:43:38.051 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:43:43.067 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:43:48.074 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:43:53.090 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:43:58.093 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:44:03.110 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:44:08.122 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:44:13.132 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:44:18.135 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:44:23.140 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:44:28.143 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:44:33.147 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:44:33.536 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-08-22 13:44:33.537 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-08-22 13:46:54.358 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2026-08-22 13:46:54.364 [main] INFO  c.g.g.GradAiCommunityApplication - Starting GradAiCommunityApplication using Java 1.8.0_202 on DESKTOP-BSHJF2M with PID 26520 (D:\software\springBoot\grad_ai_community\target\classes started by Legion in D:\software\springBoot\grad_ai_community)
+2026-08-22 13:46:54.365 [main] INFO  c.g.g.GradAiCommunityApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-22 13:46:55.052 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-08-22 13:46:55.053 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-08-22 13:46:55.094 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+2026-08-22 13:46:55.779 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2026-08-22 13:46:55.781 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.14] using APR version [1.7.6].
+2026-08-22 13:46:55.781 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2026-08-22 13:46:55.781 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2026-08-22 13:46:55.785 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.5.5 27 Jan 2026]
+2026-08-22 13:46:55.793 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-08-22 13:46:55.793 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-22 13:46:55.793 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2026-08-22 13:46:55.983 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-08-22 13:46:55.983 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1579 ms
+2026-08-22 13:46:58.813 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-08-22 13:46:58.898 [main] INFO  c.g.g.config.WebConfig - 上传文件映射物理路径：D:\software\springBoot\grad_ai_community\.\uploads
+2026-08-22 13:46:59.347 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-08-22 13:46:59.363 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2026-08-22 13:46:59.374 [main] INFO  c.g.g.GradAiCommunityApplication - Started GradAiCommunityApplication in 5.373 seconds (JVM running for 6.5)
+2026-08-22 13:46:59.378 [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-08-22 13:46:59.490 [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-08-22 13:47:00.753 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:47:05.757 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:47:10.766 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:47:15.779 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:47:20.788 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:47:23.145 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-22 13:47:23.145 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-22 13:47:23.148 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-08-22 13:47:23.310 [http-nio-8081-exec-1] DEBUG c.g.g.m.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,nickname,avatar,school,major,interest_tag,create_time,update_time FROM sys_user WHERE (username = ?)
+2026-08-22 13:47:23.329 [http-nio-8081-exec-1] DEBUG c.g.g.m.SysUserMapper.selectList - ==> Parameters: w1237(String)
+2026-08-22 13:47:23.350 [http-nio-8081-exec-1] DEBUG c.g.g.m.SysUserMapper.selectList - <==      Total: 0
+2026-08-22 13:47:23.424 [http-nio-8081-exec-1] DEBUG c.g.g.mapper.SysUserMapper.insert - ==>  Preparing: INSERT INTO sys_user ( password, interest_tag ) VALUES ( ?, ? )
+2026-08-22 13:47:23.425 [http-nio-8081-exec-1] DEBUG c.g.g.mapper.SysUserMapper.insert - ==> Parameters: $2a$10$9IbFFnkFMucaDTYX6YxT0Oj1ZTs5P5Y9bcUyichcLeUNwwjfL2Roq(String), 1(Integer)
+2026-08-22 13:47:23.495 [http-nio-8081-exec-1] ERROR c.g.g.common.GlobalExceptionHandler - 系统异常
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'username' doesn't have a default value
+### The error may exist in com/graduate/graidaicommunity/mapper/SysUserMapper.java (best guess)
+### The error may involve com.graduate.graidaicommunity.mapper.SysUserMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO sys_user  ( password,     interest_tag )  VALUES  ( ?,     ? )
+### Cause: java.sql.SQLException: Field 'username' doesn't have a default value
+; Field 'username' doesn't have a default value; nested exception is java.sql.SQLException: Field 'username' doesn't have a default value
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:251)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy82.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:59)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy89.insert(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.IService.save(IService.java:63)
+	at com.graduate.graidaicommunity.service.impl.UserServiceImpl.register(UserServiceImpl.java:48)
+	at com.graduate.graidaicommunity.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$af3a907d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at com.graduate.graidaicommunity.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$9bd16384.register(<generated>)
+	at com.graduate.graidaicommunity.controller.UserController.register(UserController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLException: Field 'username' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy148.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:64)
+	at com.sun.proxy.$Proxy147.update(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Invocation.proceed(Invocation.java:49)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:106)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy146.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 65 common frames omitted
+2026-08-22 13:47:25.810 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:47:30.824 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:47:34.220 [http-nio-8081-exec-3] DEBUG c.g.g.m.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,nickname,avatar,school,major,interest_tag,create_time,update_time FROM sys_user WHERE (username = ?)
+2026-08-22 13:47:34.220 [http-nio-8081-exec-3] DEBUG c.g.g.m.SysUserMapper.selectList - ==> Parameters: w1237(String)
+2026-08-22 13:47:34.221 [http-nio-8081-exec-3] DEBUG c.g.g.m.SysUserMapper.selectList - <==      Total: 0
+2026-08-22 13:47:34.282 [http-nio-8081-exec-3] DEBUG c.g.g.mapper.SysUserMapper.insert - ==>  Preparing: INSERT INTO sys_user ( password, interest_tag ) VALUES ( ?, ? )
+2026-08-22 13:47:34.282 [http-nio-8081-exec-3] DEBUG c.g.g.mapper.SysUserMapper.insert - ==> Parameters: $2a$10$lSgmXymm8OOrhvMtS/M3aODzSdzLGKyBICD0fqGMDt2YTYPewXmNi(String), 1(Integer)
+2026-08-22 13:47:34.285 [http-nio-8081-exec-3] ERROR c.g.g.common.GlobalExceptionHandler - 系统异常
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'username' doesn't have a default value
+### The error may exist in com/graduate/graidaicommunity/mapper/SysUserMapper.java (best guess)
+### The error may involve com.graduate.graidaicommunity.mapper.SysUserMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO sys_user  ( password,     interest_tag )  VALUES  ( ?,     ? )
+### Cause: java.sql.SQLException: Field 'username' doesn't have a default value
+; Field 'username' doesn't have a default value; nested exception is java.sql.SQLException: Field 'username' doesn't have a default value
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:251)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy82.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:59)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy89.insert(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.IService.save(IService.java:63)
+	at com.graduate.graidaicommunity.service.impl.UserServiceImpl.register(UserServiceImpl.java:48)
+	at com.graduate.graidaicommunity.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$af3a907d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at com.graduate.graidaicommunity.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$9bd16384.register(<generated>)
+	at com.graduate.graidaicommunity.controller.UserController.register(UserController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLException: Field 'username' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy148.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:64)
+	at com.sun.proxy.$Proxy147.update(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Invocation.proceed(Invocation.java:49)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:106)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy146.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 65 common frames omitted
+2026-08-22 13:47:35.828 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:47:36.007 [http-nio-8081-exec-4] DEBUG c.g.g.m.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,nickname,avatar,school,major,interest_tag,create_time,update_time FROM sys_user WHERE (username = ?)
+2026-08-22 13:47:36.007 [http-nio-8081-exec-4] DEBUG c.g.g.m.SysUserMapper.selectList - ==> Parameters: w1237(String)
+2026-08-22 13:47:36.008 [http-nio-8081-exec-4] DEBUG c.g.g.m.SysUserMapper.selectList - <==      Total: 0
+2026-08-22 13:47:36.071 [http-nio-8081-exec-4] DEBUG c.g.g.mapper.SysUserMapper.insert - ==>  Preparing: INSERT INTO sys_user ( password, interest_tag ) VALUES ( ?, ? )
+2026-08-22 13:47:36.071 [http-nio-8081-exec-4] DEBUG c.g.g.mapper.SysUserMapper.insert - ==> Parameters: $2a$10$JooFFfCDgUXCKrePSjtx6.CdpqOa7SGqqYc7cijfFJGZ6TDqPGItq(String), 1(Integer)
+2026-08-22 13:47:36.072 [http-nio-8081-exec-4] ERROR c.g.g.common.GlobalExceptionHandler - 系统异常
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'username' doesn't have a default value
+### The error may exist in com/graduate/graidaicommunity/mapper/SysUserMapper.java (best guess)
+### The error may involve com.graduate.graidaicommunity.mapper.SysUserMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO sys_user  ( password,     interest_tag )  VALUES  ( ?,     ? )
+### Cause: java.sql.SQLException: Field 'username' doesn't have a default value
+; Field 'username' doesn't have a default value; nested exception is java.sql.SQLException: Field 'username' doesn't have a default value
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:251)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy82.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:59)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy89.insert(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.IService.save(IService.java:63)
+	at com.graduate.graidaicommunity.service.impl.UserServiceImpl.register(UserServiceImpl.java:48)
+	at com.graduate.graidaicommunity.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$af3a907d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at com.graduate.graidaicommunity.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$9bd16384.register(<generated>)
+	at com.graduate.graidaicommunity.controller.UserController.register(UserController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLException: Field 'username' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy148.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:64)
+	at com.sun.proxy.$Proxy147.update(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Invocation.proceed(Invocation.java:49)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:106)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy146.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 65 common frames omitted
+2026-08-22 13:47:37.002 [http-nio-8081-exec-5] DEBUG c.g.g.m.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,nickname,avatar,school,major,interest_tag,create_time,update_time FROM sys_user WHERE (username = ?)
+2026-08-22 13:47:37.003 [http-nio-8081-exec-5] DEBUG c.g.g.m.SysUserMapper.selectList - ==> Parameters: w1237(String)
+2026-08-22 13:47:37.004 [http-nio-8081-exec-5] DEBUG c.g.g.m.SysUserMapper.selectList - <==      Total: 0
+2026-08-22 13:47:37.065 [http-nio-8081-exec-5] DEBUG c.g.g.mapper.SysUserMapper.insert - ==>  Preparing: INSERT INTO sys_user ( password, interest_tag ) VALUES ( ?, ? )
+2026-08-22 13:47:37.065 [http-nio-8081-exec-5] DEBUG c.g.g.mapper.SysUserMapper.insert - ==> Parameters: $2a$10$N6Ijz0c4/YdoRyPbtEQX4OJlfBacAS2wSS6oaiil/18KOfgOZ0Gcy(String), 1(Integer)
+2026-08-22 13:47:37.066 [http-nio-8081-exec-5] ERROR c.g.g.common.GlobalExceptionHandler - 系统异常
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'username' doesn't have a default value
+### The error may exist in com/graduate/graidaicommunity/mapper/SysUserMapper.java (best guess)
+### The error may involve com.graduate.graidaicommunity.mapper.SysUserMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO sys_user  ( password,     interest_tag )  VALUES  ( ?,     ? )
+### Cause: java.sql.SQLException: Field 'username' doesn't have a default value
+; Field 'username' doesn't have a default value; nested exception is java.sql.SQLException: Field 'username' doesn't have a default value
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:251)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy82.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:59)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy89.insert(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.IService.save(IService.java:63)
+	at com.graduate.graidaicommunity.service.impl.UserServiceImpl.register(UserServiceImpl.java:48)
+	at com.graduate.graidaicommunity.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$af3a907d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at com.graduate.graidaicommunity.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$9bd16384.register(<generated>)
+	at com.graduate.graidaicommunity.controller.UserController.register(UserController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLException: Field 'username' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy148.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:64)
+	at com.sun.proxy.$Proxy147.update(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Invocation.proceed(Invocation.java:49)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:106)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy146.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 65 common frames omitted
+2026-08-22 13:47:37.485 [http-nio-8081-exec-7] DEBUG c.g.g.m.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,nickname,avatar,school,major,interest_tag,create_time,update_time FROM sys_user WHERE (username = ?)
+2026-08-22 13:47:37.485 [http-nio-8081-exec-7] DEBUG c.g.g.m.SysUserMapper.selectList - ==> Parameters: w1237(String)
+2026-08-22 13:47:37.486 [http-nio-8081-exec-7] DEBUG c.g.g.m.SysUserMapper.selectList - <==      Total: 0
+2026-08-22 13:47:37.548 [http-nio-8081-exec-7] DEBUG c.g.g.mapper.SysUserMapper.insert - ==>  Preparing: INSERT INTO sys_user ( password, interest_tag ) VALUES ( ?, ? )
+2026-08-22 13:47:37.549 [http-nio-8081-exec-7] DEBUG c.g.g.mapper.SysUserMapper.insert - ==> Parameters: $2a$10$oNacdbCYSe/pw2H5Nhigw.abpv4nFmXQrXIct/Y4fZTRLqlz6Yine(String), 1(Integer)
+2026-08-22 13:47:37.550 [http-nio-8081-exec-7] ERROR c.g.g.common.GlobalExceptionHandler - 系统异常
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'username' doesn't have a default value
+### The error may exist in com/graduate/graidaicommunity/mapper/SysUserMapper.java (best guess)
+### The error may involve com.graduate.graidaicommunity.mapper.SysUserMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO sys_user  ( password,     interest_tag )  VALUES  ( ?,     ? )
+### Cause: java.sql.SQLException: Field 'username' doesn't have a default value
+; Field 'username' doesn't have a default value; nested exception is java.sql.SQLException: Field 'username' doesn't have a default value
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:251)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy82.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:59)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy89.insert(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.IService.save(IService.java:63)
+	at com.graduate.graidaicommunity.service.impl.UserServiceImpl.register(UserServiceImpl.java:48)
+	at com.graduate.graidaicommunity.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$af3a907d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at com.graduate.graidaicommunity.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$9bd16384.register(<generated>)
+	at com.graduate.graidaicommunity.controller.UserController.register(UserController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLException: Field 'username' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy148.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:64)
+	at com.sun.proxy.$Proxy147.update(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Invocation.proceed(Invocation.java:49)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:106)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy146.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 65 common frames omitted
+2026-08-22 13:47:40.845 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:47:45.856 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:47:50.866 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:47:55.883 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:48:00.897 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:48:05.913 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:48:06.993 [http-nio-8081-exec-8] DEBUG c.g.g.m.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,nickname,avatar,school,major,interest_tag,create_time,update_time FROM sys_user WHERE (username = ?)
+2026-08-22 13:48:06.993 [http-nio-8081-exec-8] DEBUG c.g.g.m.SysUserMapper.selectList - ==> Parameters: w1237(String)
+2026-08-22 13:48:06.994 [http-nio-8081-exec-8] DEBUG c.g.g.m.SysUserMapper.selectList - <==      Total: 0
+2026-08-22 13:48:07.056 [http-nio-8081-exec-8] DEBUG c.g.g.mapper.SysUserMapper.insert - ==>  Preparing: INSERT INTO sys_user ( password, interest_tag ) VALUES ( ?, ? )
+2026-08-22 13:48:07.057 [http-nio-8081-exec-8] DEBUG c.g.g.mapper.SysUserMapper.insert - ==> Parameters: $2a$10$g8EHvRcpHw94IfPhNft/OOLQsjhRbhlyoF/7sibmtcxIvEcpbGq3m(String), 1(Integer)
+2026-08-22 13:48:07.058 [http-nio-8081-exec-8] ERROR c.g.g.common.GlobalExceptionHandler - 系统异常
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'username' doesn't have a default value
+### The error may exist in com/graduate/graidaicommunity/mapper/SysUserMapper.java (best guess)
+### The error may involve com.graduate.graidaicommunity.mapper.SysUserMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO sys_user  ( password,     interest_tag )  VALUES  ( ?,     ? )
+### Cause: java.sql.SQLException: Field 'username' doesn't have a default value
+; Field 'username' doesn't have a default value; nested exception is java.sql.SQLException: Field 'username' doesn't have a default value
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:251)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy82.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:59)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy89.insert(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.IService.save(IService.java:63)
+	at com.graduate.graidaicommunity.service.impl.UserServiceImpl.register(UserServiceImpl.java:48)
+	at com.graduate.graidaicommunity.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$af3a907d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at com.graduate.graidaicommunity.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$9bd16384.register(<generated>)
+	at com.graduate.graidaicommunity.controller.UserController.register(UserController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLException: Field 'username' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy148.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:64)
+	at com.sun.proxy.$Proxy147.update(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Invocation.proceed(Invocation.java:49)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:106)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy146.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 65 common frames omitted
+2026-08-22 13:48:10.923 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:48:15.937 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:48:20.945 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:48:25.954 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:48:30.972 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:48:35.986 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:48:41.003 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:48:44.360 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-08-22 13:48:44.372 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-08-22 13:48:49.933 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2026-08-22 13:48:49.938 [main] INFO  c.g.g.GradAiCommunityApplication - Starting GradAiCommunityApplication using Java 1.8.0_202 on DESKTOP-BSHJF2M with PID 29320 (D:\software\springBoot\grad_ai_community\target\classes started by Legion in D:\software\springBoot\grad_ai_community)
+2026-08-22 13:48:49.939 [main] INFO  c.g.g.GradAiCommunityApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-22 13:48:50.673 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-08-22 13:48:50.675 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-08-22 13:48:50.718 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 0 Redis repository interfaces.
+2026-08-22 13:48:51.412 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2026-08-22 13:48:51.413 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.14] using APR version [1.7.6].
+2026-08-22 13:48:51.413 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2026-08-22 13:48:51.413 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2026-08-22 13:48:51.417 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.5.5 27 Jan 2026]
+2026-08-22 13:48:51.425 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-08-22 13:48:51.426 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-22 13:48:51.426 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2026-08-22 13:48:51.600 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-08-22 13:48:51.601 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1619 ms
+2026-08-22 13:48:54.417 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-08-22 13:48:54.501 [main] INFO  c.g.g.config.WebConfig - 上传文件映射物理路径：D:\software\springBoot\grad_ai_community\.\uploads
+2026-08-22 13:48:54.971 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-08-22 13:48:54.988 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2026-08-22 13:48:55.000 [main] INFO  c.g.g.GradAiCommunityApplication - Started GradAiCommunityApplication in 5.458 seconds (JVM running for 6.611)
+2026-08-22 13:48:55.003 [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-08-22 13:48:55.121 [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-08-22 13:48:56.516 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:49:01.529 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:49:04.155 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-22 13:49:04.156 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-22 13:49:04.157 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-08-22 13:49:04.294 [http-nio-8081-exec-2] DEBUG c.g.g.m.SysUserMapper.selectList - ==>  Preparing: SELECT id,username,password,nickname,avatar,school,major,interest_tag,create_time,update_time FROM sys_user WHERE (username = ?)
+2026-08-22 13:49:04.309 [http-nio-8081-exec-2] DEBUG c.g.g.m.SysUserMapper.selectList - ==> Parameters: w1237(String)
+2026-08-22 13:49:04.328 [http-nio-8081-exec-2] DEBUG c.g.g.m.SysUserMapper.selectList - <==      Total: 0
+2026-08-22 13:49:04.398 [http-nio-8081-exec-2] DEBUG c.g.g.mapper.SysUserMapper.insert - ==>  Preparing: INSERT INTO sys_user ( password, interest_tag ) VALUES ( ?, ? )
+2026-08-22 13:49:04.398 [http-nio-8081-exec-2] DEBUG c.g.g.mapper.SysUserMapper.insert - ==> Parameters: $2a$10$3GtiQaismjnoQ.AHfumz2OpssCMR0iwmLYAD2nO2fOXZvsfbNoy3m(String), 1(Integer)
+2026-08-22 13:49:04.453 [http-nio-8081-exec-2] ERROR c.g.g.common.GlobalExceptionHandler - 系统异常
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'username' doesn't have a default value
+### The error may exist in com/graduate/graidaicommunity/mapper/SysUserMapper.java (best guess)
+### The error may involve com.graduate.graidaicommunity.mapper.SysUserMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO sys_user  ( password,     interest_tag )  VALUES  ( ?,     ? )
+### Cause: java.sql.SQLException: Field 'username' doesn't have a default value
+; Field 'username' doesn't have a default value; nested exception is java.sql.SQLException: Field 'username' doesn't have a default value
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:251)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy82.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:59)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy89.insert(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.IService.save(IService.java:63)
+	at com.graduate.graidaicommunity.service.impl.UserServiceImpl.register(UserServiceImpl.java:48)
+	at com.graduate.graidaicommunity.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$af3a907d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at com.graduate.graidaicommunity.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$cfd893e6.register(<generated>)
+	at com.graduate.graidaicommunity.controller.UserController.register(UserController.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLException: Field 'username' doesn't have a default value
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy148.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:64)
+	at com.sun.proxy.$Proxy147.update(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Invocation.proceed(Invocation.java:49)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:106)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy146.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 65 common frames omitted
+2026-08-22 13:49:06.542 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:49:11.544 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:49:16.555 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:49:21.569 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:49:26.577 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:49:31.587 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:49:36.600 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:49:41.611 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:49:46.614 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:49:51.626 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:49:56.629 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:50:00.012 [scheduling-1] INFO  c.g.g.service.impl.LikeSyncTask - 【定时任务】暂无需要同步的点赞数据
+2026-08-22 13:50:01.639 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:50:06.643 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:50:11.650 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:50:16.661 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:50:21.676 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:50:26.692 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:50:31.696 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:50:36.706 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:50:41.712 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:50:46.717 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:50:51.733 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:50:56.746 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:51:01.757 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:51:06.767 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:51:11.780 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:51:16.790 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:51:21.807 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:51:26.814 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:51:31.823 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:51:36.840 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:51:41.854 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:51:46.870 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:51:51.884 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:51:56.892 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:52:01.900 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:52:06.905 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:52:11.908 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:52:16.919 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:52:21.934 [scheduling-1] INFO  c.g.g.service.impl.FavoriteSyncTask - 【收藏同步】暂无需要同步的数据
+2026-08-22 13:52:24.236 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-08-22 13:52:24.243 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
