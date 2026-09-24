@@ -31,8 +31,6 @@ public class DashScopeClient {
     @Value("${openai.base.url:https://dashscope.aliyuncs.com/compatible-mode/v1}")
     private String baseUrl;
 
-
-    // ✅ 免费模型 qwen3.7-plus
     @Value("${openai.model:qwen3.7-plus}")
     private String model;
 

@@ -21,6 +21,7 @@ public class JwtInterceptor implements HandlerInterceptor {
     @Resource
     private ObjectMapper objectMapper;
 
+    //门卫，拦住验token，解析出 userId 放进 ThreadLocal → 放行
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         UserContext.clear(); // 防御性清理，防止线程复用串号
@@ -49,6 +50,7 @@ public class JwtInterceptor implements HandlerInterceptor {
         return true;
     }
 
+    //请求处理完，清除ThreadLocal
     @Override
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
         UserContext.clear();
@@ -65,7 +67,6 @@ public class JwtInterceptor implements HandlerInterceptor {
         } catch (Exception e) {
             log.error("拦截器输出响应异常", e);
         }
-        // ❌ 不要关闭 response.getWriter()，由 Servlet 容器管理
         return false;
     }
 }

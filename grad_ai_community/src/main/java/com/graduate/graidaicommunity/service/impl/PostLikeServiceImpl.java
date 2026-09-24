@@ -20,9 +20,6 @@ public class PostLikeServiceImpl extends ServiceImpl<PostLikeMapper, PostLike> i
 
     @Resource
     private PostService postService;
-
-
-
     @Override
     @Transactional(rollbackFor = Exception.class)
     public Result<?> toggleLike(Long postId) {

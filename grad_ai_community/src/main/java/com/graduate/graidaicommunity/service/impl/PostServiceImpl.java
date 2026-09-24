@@ -48,9 +48,10 @@ public class PostServiceImpl extends ServiceImpl<PostMapper, Post> implements Po
     private static final String COMMENT_COUNT_KEY_PREFIX = "post:comment:count:";
 
     // ========== 公共方法 ==========
-
+//帖子列表
     @Override
     public Result<?> getPostList(Integer pageNum, Integer pageSize, Long parentCategoryId, Long categoryId) {
+        //建分页对象
         Page<Post> page = new Page<>(pageNum, pageSize);
         Long userId = UserContext.getUserId();
 
@@ -60,15 +61,15 @@ public class PostServiceImpl extends ServiceImpl<PostMapper, Post> implements Po
         } else {
             result = postMapper.selectListWithFavorite(page, userId);
         }
-
         fillUserInfo(result);
         fillLikeCountFromRedis(result.getRecords());
         fillCommentCountFromRedis(result.getRecords());
         fillHasLiked(result.getRecords());
-        // ✅ 不再需要 fillHasFavorited，SQL 已经联表查出来了
+        // 不再需要 fillHasFavorited，SQL 已经联表查出来了
 
         return Result.success(result);
     }
+    //帖子详情
     @Override
     public Result<?> getPostDetail(Long id) {
         Post post = getById(id);
@@ -102,7 +103,6 @@ public class PostServiceImpl extends ServiceImpl<PostMapper, Post> implements Po
             post.setHasLiked(postLikeMapper.selectOne(wrapper) != null);
         }
 
-        // ✅ 新增：收藏状态
         try {
             post.setIsFavorited(favoriteMapper.checkFavorite(currentUserId, id) > 0);
         } catch (Exception e) {
@@ -125,7 +125,7 @@ public class PostServiceImpl extends ServiceImpl<PostMapper, Post> implements Po
 
     @Override
     public Result<?> toggleLike(Long postId) {
-        Post post = getById(postId);
+        Post post = getById(postId);//校验帖子存不存在
         if (post == null) {
             return Result.fail(400, "帖子不存在");
         }
@@ -134,9 +134,9 @@ public class PostServiceImpl extends ServiceImpl<PostMapper, Post> implements Po
         String postLikeKey = POST_LIKE_KEY + postId;
 
         try {
-            Long result = redisUtil.toggleSetAtomic(postLikeKey, userId.toString());
+            Long result = redisUtil.toggleSetAtomic(postLikeKey, userId.toString());//Lua
             if (result != null) {
-                redisUtil.sAdd(POST_LIKE_SYNC_KEY, postId.toString());
+                redisUtil.sAdd(POST_LIKE_SYNC_KEY, postId.toString());//打脏标记
                 // 同时更新内存计数，避免立即查Redis
                 if (result == 1) {
                     log.info("【Redis】点赞成功，用户 {} 帖子 {}", userId, postId);
@@ -193,7 +193,7 @@ public class PostServiceImpl extends ServiceImpl<PostMapper, Post> implements Po
             fillLikeCountFromRedis(posts);
             fillCommentCountFromRedis(posts);
             fillHasLiked(posts);
-            fillHasFavorited(posts);  // ✅ 新增
+            fillHasFavorited(posts);
         }
         return Result.success(resultPage);
     }
@@ -214,7 +214,7 @@ public class PostServiceImpl extends ServiceImpl<PostMapper, Post> implements Po
         fillLikeCountFromRedis(result.getRecords());
         fillCommentCountFromRedis(result.getRecords());
         fillHasLiked(result.getRecords());
-        fillHasFavorited(result.getRecords());  // ✅ 新增
+        fillHasFavorited(result.getRecords());
         return Result.success(result);
     }
 
@@ -229,7 +229,7 @@ public class PostServiceImpl extends ServiceImpl<PostMapper, Post> implements Po
         fillLikeCountFromRedis(result.getRecords());
         fillCommentCountFromRedis(result.getRecords());
         fillHasLiked(result.getRecords());
-        fillHasFavorited(result.getRecords());  // ✅ 新增
+        fillHasFavorited(result.getRecords());
         return Result.success(result);
     }
 
@@ -244,18 +244,18 @@ public class PostServiceImpl extends ServiceImpl<PostMapper, Post> implements Po
         fillUserInfo(result);
         fillLikeCountFromRedis(result.getRecords());
         fillCommentCountFromRedis(result.getRecords());
-        fillHasFavorited(result.getRecords());  // ✅ 新增
+        fillHasFavorited(result.getRecords());
         return Result.success(result);
     }
 
-    // ========== 私有辅助方法 ==========
 
     private void fillUserInfo(IPage<Post> page) {
         List<Post> records = page.getRecords();
         if (records != null && !records.isEmpty()) {
-            List<Long> userIds = records.stream().map(Post::getUserId).collect(Collectors.toList());
-            List<SysUser> users = userService.listByIds(userIds);
-            Map<Long, SysUser> userMap = users.stream().collect(Collectors.toMap(SysUser::getId, u -> u));
+            //避免N+1
+            List<Long> userIds = records.stream().map(Post::getUserId).collect(Collectors.toList());//先收集
+            List<SysUser> users = userService.listByIds(userIds);//一次IN全查询
+            Map<Long, SysUser> userMap = users.stream().collect(Collectors.toMap(SysUser::getId, u -> u));//做成id用户的字典
             for (Post post : records) {
                 SysUser user = userMap.get(post.getUserId());
                 if (user != null) {
@@ -302,7 +302,6 @@ public class PostServiceImpl extends ServiceImpl<PostMapper, Post> implements Po
         }
     }
 
-    // ✅ 新增：填充收藏状态
     private void fillHasFavorited(List<Post> posts) {
         if (posts == null || posts.isEmpty()) return;
         Long currentUserId = UserContext.getUserId();
@@ -433,12 +432,12 @@ public class PostServiceImpl extends ServiceImpl<PostMapper, Post> implements Po
         redisUtil.delete(POST_LIKE_KEY + postId);
         redisUtil.delete(COMMENT_COUNT_KEY_PREFIX + postId);
 
-        // 3. 清理该帖子的收藏记录（可选，看业务需求）
+        // 3. 清理该帖子的收藏记录
         LambdaQueryWrapper<Favorite> favWrapper = new LambdaQueryWrapper<>();
         favWrapper.eq(Favorite::getPostId, postId);
         favoriteMapper.delete(favWrapper);
 
-        // 4. 清理点赞记录（可选）
+        // 4. 清理点赞记录
         LambdaQueryWrapper<PostLike> likeWrapper = new LambdaQueryWrapper<>();
         likeWrapper.eq(PostLike::getPostId, postId);
         postLikeMapper.delete(likeWrapper);

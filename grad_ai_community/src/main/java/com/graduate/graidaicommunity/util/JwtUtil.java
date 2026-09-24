@@ -54,7 +54,7 @@ public class JwtUtil {
                 .compact();
     }
 //验证token
-    public Long parseToken(String token) {
+    public Long parseToken(String token) {                  //检查签名对不对、过没过期、格式合不合法
         String userIdStr = Jwts.parser()
                 .setSigningKey(secureSecret)
                 .parseClaimsJws(token)

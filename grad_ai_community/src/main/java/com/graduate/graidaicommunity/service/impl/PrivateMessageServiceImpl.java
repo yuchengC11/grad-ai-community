@@ -42,8 +42,8 @@ public class PrivateMessageServiceImpl extends ServiceImpl<PrivateMessageMapper,
         if (content.length() > 500) {
             return Result.fail(400, "消息内容不能超过500字");
         }
-// 可选：敏感词过滤
-        // ✅ 无需检查好友关系，直接发送
+// 敏感词过滤
+        //  无需检查好友关系，直接发送
         PrivateMessage msg = new PrivateMessage();
         msg.setFromUserId(fromUserId);
         msg.setToUserId(toUserId);

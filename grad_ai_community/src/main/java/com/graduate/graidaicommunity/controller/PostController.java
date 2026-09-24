@@ -28,7 +28,7 @@ public class PostController {
     public Result<?> getDetail(@PathVariable Long id) {
         return postService.getPostDetail(id);
     }
-//新增帖子
+//发帖子
     @PostMapping("/add")
     public Result<?> addPost(@Valid @RequestBody PostPublishDTO dto) {
         Post post = new Post();

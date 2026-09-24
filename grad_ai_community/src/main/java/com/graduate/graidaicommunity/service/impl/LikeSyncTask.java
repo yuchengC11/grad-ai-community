@@ -28,7 +28,7 @@ public class LikeSyncTask {
     private static final String POST_LIKE_KEY = "post:like:";
     private static final String POST_LIKE_SYNC_KEY = "post:like:sync";
 
-    @Scheduled(cron = "0 */5 * * * ?")
+    @Scheduled(cron = "0 */5 * * * ?") //每小时的 0、5、10...分整执行
     @Transactional(rollbackFor = Exception.class)
     public void syncLikeToMySQL() {
         Set<String> postIds = redisUtil.sMembers(POST_LIKE_SYNC_KEY);

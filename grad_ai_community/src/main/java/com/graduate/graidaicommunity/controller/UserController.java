@@ -24,7 +24,7 @@ import java.util.UUID;
 public class UserController {
     @Resource
     private UserService userService;
-    @Value("${upload.local-path}")
+    @Value("${upload.local-path}")  
     private String uploadLocalPath;
 
     @PostMapping("/login")
@@ -44,7 +44,7 @@ public class UserController {
         if (user == null) {
             return Result.fail(404, "用户不存在");
         }
-        user.setPassword(null);
+        user.setPassword(null);//请求结束清理
         return Result.success(user);
     }
 

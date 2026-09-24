@@ -45,7 +45,7 @@ public class FavoriteServiceImpl extends ServiceImpl<FavoriteMapper, Favorite> i
         Long userId = UserContext.getUserId();
         String favoriteKey = FAVORITE_KEY_PREFIX + postId;
 
-        Long result = redisUtil.toggleSetAtomic(favoriteKey, userId.toString());
+        Long result = redisUtil.toggleSetAtomic(favoriteKey, userId.toString());//返回1，加入收藏；返回0，取消；null=Redis 故障
 
         if (result == null) {
             log.warn("Redis收藏失败，降级MySQL, userId={}, postId={}", userId, postId);

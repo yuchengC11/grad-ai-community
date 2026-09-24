@@ -4,11 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-/**
- * @Data：自动生成 get、set、toString、equals、hashCode
- * @NoArgsConstructor：自动生成无参构造方法
- * @AllArgsConstructor：自动生成全参构造方法
- */
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

@@ -6,15 +6,12 @@ import com.graduate.graidaicommunity.service.ai.AiPostService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-
+import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
 import javax.annotation.Resource;
 import javax.validation.Valid;
-import java.util.List;
-import java.util.Map;
 
 @RestController
 public class AiChatController {
-
     @Resource
     private AiPostService aiPostService;
 
@@ -22,4 +19,13 @@ public class AiChatController {
     public Result<String> chat(@RequestBody @Valid ChatRequest request) {
         return aiPostService.chat(request.getQuestion(), request.getHistory(), request.getPersona());
     }
+    @PostMapping("/ai/stream")
+    public SseEmitter streamChat(@RequestBody @Valid ChatRequest request) {
+        return aiPostService.streamChat(
+                request.getQuestion(),
+                request.getHistory(),
+                request.getPersona()
+        );
+    }
+
 }

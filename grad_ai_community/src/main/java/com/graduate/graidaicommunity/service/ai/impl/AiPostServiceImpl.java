@@ -117,7 +117,7 @@ public class AiPostServiceImpl implements AiPostService {
     @Override
     public SseEmitter streamChat(String question, List<Map<String, String>> history, String persona) {
         SseEmitter emitter = new SseEmitter(120000L);
-        // ✅ 关键修复：通过 selfProxy（代理对象）调用，@Async 才会生效
+        // 通过 selfProxy（代理对象）调用，@Async 才会生效
         // 不能写 this.doStreamChat(...)，那样是内部调用，不走代理
         selfProxy.doStreamChat(emitter, question, history, persona);
         return emitter;

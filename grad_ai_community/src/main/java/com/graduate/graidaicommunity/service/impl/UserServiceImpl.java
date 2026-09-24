@@ -35,18 +35,12 @@ public class UserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> impleme
         }
         SysUser user = new SysUser();
         user.setUsername(dto.getUsername());   //账号
-// 兜底：nickname为空就用username作为默认昵称
+
         user.setNickname(dto.getNickname() != null ? dto.getNickname() : dto.getUsername());
-        user.setPassword(passwordUtil.encrypt(dto.getPassword()));
+        user.setPassword(passwordUtil.encrypt(dto.getPassword()));//BCrypt加密
         user.setInterestTag(dto.getInterestTag() != null ? dto.getInterestTag() : 1);
 
-//打印校验
-        log.info("dto username = " + dto.getUsername());
-        log.info("dto nickname = " + dto.getNickname());
-        log.info("user username = " + user.getUsername());
-        log.info("user nickname = " + user.getNickname());
-        log.info("user interestTag = " + user.getInterestTag());
-
+//入库
         boolean saveOk = this.save(user);
         if (!saveOk) {
             return Result.fail(500, "注册保存失败");
@@ -73,7 +67,6 @@ public class UserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> impleme
         data.put("token", token);
         user.setPassword(null);
         data.put("userInfo", user);
-
         return Result.success(data);
     }
     @Override
